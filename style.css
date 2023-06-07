@@ -1,0 +1,89 @@
+*{
+    background-color: rgb(206, 118, 132); 
+}
+
+main{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+} 
+
+#tablero{
+    margin-top: 50px;
+} 
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px  solid black;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    background-color: #eb91479b;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.objetivo{
+    background-image: url(img/meta.png);
+    background-size: cover;
+}
+.posicionJ1{
+    background-image: url(img/koala.png);
+    background-size: cover;
+}
+.posicionJ2{
+    background-image: url(img/panda.png);
+    background-size: cover;
+}
+
+#puntuacion{
+    display: block;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 50px;
+}
+#puntuacion p{
+    font-size: 30px;
+    color: rgb(134, 20, 163);
+    font-weight: bold;
+    font-size: 25px;
+}
+.puntuacion-jugador{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(134, 20, 163);
+}
+.puntuacion-jugador img{
+    width: 40px;
+}
+
+#boton {
+    background-color: rgb(134, 20, 163);
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    border: none;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 60px;
+    border-radius: 90px;
+}
+
+#mensaje{
+    margin-top: 18px;
+    font-size: 37px; 
+    color: rgb(9, 73, 151);
+    font-weight: bold;
+}
+
